@@ -1,9 +1,9 @@
 import React from "react";
 
-import './styles.css'
+import './styles.css';
 
 function InputForm(props) {
-    const {handleSubmit, inputValue, onChange} = props
+    const {handleSubmit, inputValue, onChange} = props;
     return (
         <form id="text" onSubmit={handleSubmit}>
             <label htmlFor="add" className="new_item">

@@ -76,3 +76,9 @@ button:focus {
     margin-right: 2px;
 }
 
+.color_container {
+    display: flex;
+    align-items: center;
+    margin-right: 18px;
+}
+
