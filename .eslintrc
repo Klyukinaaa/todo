@@ -1,0 +1,18 @@
+// .eslintrc
+{
+  "env": {
+    "browser": true
+  },
+  "extends": "airbnb",
+  "plugins": ["react"],
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "rules": {
+    "quotes": [2, "single", { "avoidEscape": true }]
+  },
+  "parser": "babel-eslint"
+}
