@@ -5,14 +5,14 @@ import './styles.css';
 
 function TodoItem(props) {
   const {
-    text, check, onclick, id,
+    text, check, onclick, id, color,
   } = props;
   return (
     <li>
-      <div id="check" className="checkbox">
-        <input type="checkbox" checked={check} onChange={() => onclick(id)} />
+      <div className={`checkbox ${check ? 'checked_color' : ' '}`} style={{ backgroundColor: color }}>
+        <input id={id} type="checkbox" onChange={() => onclick(id)} />
       </div>
-      <label htmlFor="check" className="task" style={{ background: '#b1b1b1' }}>
+      <label style={{ backgroundColor: color }} htmlFor={id} className={`task ${check ? 'checked_color' : ' '}`}>
         {text}
       </label>
     </li>
@@ -21,6 +21,7 @@ function TodoItem(props) {
 
 TodoItem.propTypes = {
   text: PropTypes.string.isRequired,
+  color: PropTypes.string.isRequired,
   check: PropTypes.bool.isRequired,
   onclick: PropTypes.func.isRequired,
   id: PropTypes.number.isRequired,

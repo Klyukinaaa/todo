@@ -20,7 +20,7 @@
     font-family: Natural, sans-serif;
 }
 
-.text_btn button {
+.text_btn #add {
     width: 70px;
     height: 38px;
     background: #2aa698;
@@ -33,52 +33,5 @@
     font-family: Natural, sans-serif;
 }
 
-.color_btns {
-    margin-right: 15px;
-}
 
-.color_btns button {
-    width: 16px;
-    height: 16px;
-    background: #fde087;
-    border-radius: 2px;
-    color: #eaf2f5;
-    cursor: pointer;
-    border: none;
-}
-
-.color_btns span.active {
-    border: 1px solid rgb(215, 199, 199);
-}
-
-.color_btns span.active button {
-    border-radius: 0;
-    width: 14px;
-    height: 14px;
-}
-
-button:focus {
-    outline: none;
-}
-
-.color_btns {
-    display: flex;
-}
-
-.color_btns span {
-    border: 1px solid white;
-    border-radius: 2px;
-    height: 16px;
-    width: 16px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-right: 2px;
-}
-
-.color_container {
-    display: flex;
-    align-items: center;
-    margin-right: 18px;
-}
 
