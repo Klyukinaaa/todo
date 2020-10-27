@@ -1,7 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import './styles.css';
 import TodoItem from '../TodoItem';
+
+import './styles.css';
 
 function ItemsList(props) {
   const { items, handleCheck } = props;

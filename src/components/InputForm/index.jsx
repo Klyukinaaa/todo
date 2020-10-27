@@ -1,8 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import ColorBtns from '../ColorBtns';
 
 import './styles.css';
-import ColorBtns from '../ColorBtns';
 
 function InputForm(props) {
   const {

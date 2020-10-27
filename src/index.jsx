@@ -1,8 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import InputForm from './components/InputForm';
 import ItemsList from './components/ItemsList';
+
+import './index.css';
 
 class Container extends React.Component {
   constructor(props) {

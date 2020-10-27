@@ -1,8 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import ItemColor from '../ItemColor';
 
 import './styles.css';
-import ItemColor from '../ItemColor';
 
 function ColorBtns(props) {
   const { colors, handleClickColor } = props;
